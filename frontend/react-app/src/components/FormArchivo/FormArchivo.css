@@ -1,0 +1,20 @@
+.form_archivos {
+  width: 70%;
+  height: 500px;
+  margin: auto;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+input::file-selector-button {
+  height: 30px;
+  width: 40;
+  border: none;
+  border-radius: 10px;
+  background-color: red;
+  color: white;
+}

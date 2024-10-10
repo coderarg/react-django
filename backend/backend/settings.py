@@ -54,7 +54,7 @@ ROOT_URLCONF = 'backend.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [],
+        'DIRS': ["C:/Users/Windows/Documents/react-django/backend/backend/templates/"],
         'APP_DIRS': True,
         'OPTIONS': {
             'context_processors': [

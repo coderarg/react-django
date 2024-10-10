@@ -1,0 +1,18 @@
+<html>
+
+<body>
+  <nav>
+    <h3>Temas del curso</h3>
+    <ul>
+      {% if objects_list %}
+      {% for animal in objects_list %}
+      <li>{{animal}}</li>
+      {% endfor %}
+      {% else %}
+      <p>No hay datos disponibles</p>
+      {% endif %}
+    </ul>
+  </nav>
+</body>
+
+</html>

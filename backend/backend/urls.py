@@ -16,11 +16,16 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
-from backend.views import saludo, calculo, dame_fecha
+from backend.views import saludito, calculo, dame_fecha, mostrar_varios_objetos, using_loader, using_render, anidar_plantilla
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('saludo/', saludo),
+    path('saludo/', saludito),
     path('calculoEdad/<int:edad>/<int:year>', calculo),
-    path('damefecha/', dame_fecha)
-]
+    path('damefecha/', dame_fecha),
+    #path('listas/', mostrar_varios_objetos),
+    #path('listas/', using_loader),
+    path('listas/', using_render),
+    path('', anidar_plantilla)
+  ]
+
