@@ -1,3 +1,9 @@
-.titulo {
+.dolares_cambio-titulo {
   text-align: center;
+  width: 70%;
+  min-width: 300px;
+  font-size: 30px;
+  background-color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
+  margin: 20px auto;
 }
