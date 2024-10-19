@@ -1,0 +1,25 @@
+.todo_form {
+  width: 70%;
+  margin: 20px auto;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.todo_form-label {
+  color: black;
+}
+
+.todo_form-input {
+  margin: 10px;
+}
+
+.todo_form-button {
+  margin: 40px;
+  padding: 15px;
+  border-radius: 7px;
+  border: none;
+  background-color: #5151ff;
+}
